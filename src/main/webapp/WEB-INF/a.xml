@@ -1,0 +1,6 @@
+	
+<!-- 	<jpa:repositories base-package="com.tam.backend.repository"  -->
+<!-- 	factory-class="org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean" -->
+<!--     transaction-manager-ref="transactionManager" -->
+<!--     entity-manager-factory-ref="entityManagerFactory" -->
+<!-- 	/> -->

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<title>Tam Demo</title>
+	<style type="text/css">
+</style>
+</h:head>
+<h:body>
+	<p:layout fullPage="true">
+
+		<p:layoutUnit position="north" size="100" header="Top"
+			resizable="true" closable="true" collapsible="true">
+
+
+		</p:layoutUnit>
+
+<!-- 		<p:layoutUnit position="south" size="100" header="Bottom" -->
+<!-- 			resizable="true" closable="true" collapsible="true"> -->
+<!-- 			<h:outputText value="South unit content." /> -->
+<!-- 		</p:layoutUnit> -->
+
+<!-- 		<p:layoutUnit position="west" size="200" header="Left" -->
+<!-- 			resizable="true" closable="true" collapsible="true"> -->
+<!-- 			<h:outputText value="West unit content." /> -->
+<!-- 		</p:layoutUnit> -->
+
+<!-- 		<p:layoutUnit position="east" size="200" header="Right" -->
+<!-- 			resizable="true" closable="true" collapsible="true" effect="drop"> -->
+<!-- 			<h:outputText value="Right unit content." /> -->
+<!-- 		</p:layoutUnit> -->
+
+		<p:layoutUnit position="center">
+			<h:form id="form">
+				<h1>Add a Person</h1>
+				<table>
+					<tr>
+						<td><label>Name</label></td>
+						<td><p:inputText id="name" value="#{personBean.person.name}"></p:inputText>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Country</label></td>
+						<td><p:inputText id="country"
+								value="#{personBean.person.country}"></p:inputText></td>
+					</tr>
+					<tr>
+						<td colspan="2"><p:commandButton update="tb2"
+								actionListener="#{personBean.addPerson(personBean.person)}"
+								value="Add Person"></p:commandButton></td>
+					</tr>
+
+					
+				</table>
+			
+			<p:dataTable value="#{personBean.listPersons}" var="person" id="tb2">
+				<p:column headerText="name">
+					<h:outputText value="#{person.name}" />
+				</p:column>
+
+				<p:column headerText="country">
+					<h:outputText value="#{person.country}" />
+				</p:column>
+				
+				<p:column style="width:32px;text-align: center">
+		             <p:commandButton update=":form:tb2" process="@this"  icon="ui-icon-close" title="View" actionListener="#{personBean.deletePerson(person)}">
+		            </p:commandButton>
+	            </p:column>
+	            <p:column style="width:32px;text-align: center">
+	             <p:commandButton update=":form"   icon="ui-icon-search" title="View">
+	            </p:commandButton>
+	        </p:column>
+			</p:dataTable>
+			</h:form>
+		</p:layoutUnit>
+
+	</p:layout>
+
+
+</h:body>
+</html>

@@ -1,0 +1,270 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>tam</groupId>
+	<artifactId>spring</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>spring Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+
+		<!-- Generic properties -->
+		<java.version>1.7</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<!-- Spring -->
+		<spring-framework.version>4.1.4.RELEASE</spring-framework.version>
+		<aspectj.version>1.7.4</aspectj.version>
+
+		<!-- Hibernate / JPA -->
+		<hibernate.version>4.3.5.Final</hibernate.version>
+
+		<!-- JSF Version -->
+		<jsf.version>2.2.10</jsf.version>
+
+		<!-- Logging -->
+		<logback.version>1.0.13</logback.version>
+		<slf4j.version>1.7.5</slf4j.version>
+		<!-- query dsl -->
+		<querydsl.version>2.8.0</querydsl.version>
+	</properties>
+	<repositories>
+	    <repository>
+	        <id>prime-repo</id>
+	        <name>PrimeFaces Maven Repository</name>
+	        <url>http://repository.primefaces.org</url>
+	        <layout>default</layout>
+	    </repository>
+	</repositories>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>io.spring.platform</groupId>
+				<artifactId>platform-bom</artifactId>
+				<version>2.0.3.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- Spring and Transactions -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<!-- <version>${spring-framework.version}</version> -->
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+
+		</dependency>
+
+		<!-- Spring ORM support -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+
+		</dependency>
+		<!-- Spring Data JPA -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-commons</artifactId>
+		</dependency>
+		<!-- Hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<!-- <version>${hibernate.version}</version> -->
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<!-- <version>5.1.20</version> -->
+		</dependency>
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<!-- <version>1.4</version> -->
+		</dependency>
+		<!-- <dependency> -->
+		<!-- <groupId>org.hibernate.javax.persistence</groupId> -->
+		<!-- <artifactId>hibernate-jpa-2.1-api</artifactId> -->
+		<!-- <version>1.0.0.Final</version> -->
+		<!-- </dependency> -->
+		<!-- @Inject -->
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+			<!-- <version>1</version> -->
+		</dependency>
+		<!-- AspectJ -->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<!-- <version>${aspectj.version}</version> -->
+		</dependency>
+		<!-- JSF Dependencies -->
+		<dependency>
+			<groupId>com.sun.faces</groupId>
+			<artifactId>jsf-api</artifactId>
+			<!-- <version>${jsf.version}</version> -->
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun.faces</groupId>
+			<artifactId>jsf-impl</artifactId>
+			<!-- <version>${jsf.version}</version> -->
+		</dependency>
+		<!-- Logging with SLF4J & LogBack -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<!-- <version>${slf4j.version}</version> -->
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<!-- <version>${logback.version}</version> -->
+			<scope>runtime</scope>
+		</dependency>
+		<!-- http://repo1.maven.org/maven -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<!-- <version>1.2</version> -->
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun.el</groupId>
+			<artifactId>el-ri</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-web-api</artifactId>
+			<version>7.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+
+		<!-- Query DSL -->
+		<dependency>
+			<groupId>com.mysema.querydsl</groupId>
+			<artifactId>querydsl-core</artifactId>
+			<!-- <version>${querydsl.version}</version> -->
+		</dependency>
+
+		<dependency>
+			<groupId>com.mysema.querydsl</groupId>
+			<artifactId>querydsl-apt</artifactId>
+			<!-- <version>${querydsl.version}</version> -->
+		</dependency>
+		<dependency>
+			<groupId>com.mysema.querydsl</groupId>
+			<artifactId>querydsl-hql</artifactId>
+			<version>1.9.7</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mysema.querydsl</groupId>
+			<artifactId>querydsl-jpa</artifactId>
+			<!-- <version>${querydsl.version}</version> -->
+		</dependency>
+		<dependency>
+			<groupId>com.mysema.querydsl</groupId>
+			<artifactId>querydsl-collections</artifactId>
+			<!-- <version>${querydsl.version}</version> -->
+		</dependency>
+
+		<dependency>  
+		    <groupId>org.primefaces</groupId>  
+		    <artifactId>primefaces</artifactId>  
+		    <version>5.2</version>  
+		</dependency>
+		<dependency>
+		    <groupId>org.primefaces.themes</groupId>  
+		    <artifactId>all-themes</artifactId>  
+		    <version>1.0.10</version>  
+		</dependency>  
+
+	</dependencies>
+	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<finalName>spring</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<warSourceDirectory>src/main/webapp</warSourceDirectory>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+					<outputDirectory>/opt/apache-tomcat-7.0.69/webapps</outputDirectory>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.mysema.maven</groupId>
+				<artifactId>maven-apt-plugin</artifactId>
+				<version>1.0.4</version>
+				<executions>
+					<execution>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>process</goal>
+						</goals>
+						<configuration>
+							<!-- Specifies the directory in which the query types are generated -->
+							<outputDirectory>target/generated-sources</outputDirectory>
+							<!-- States that the APT code generator should look for JPA annotations -->
+							<processor>com.mysema.query.apt.jpa.JPAAnnotationProcessor</processor>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

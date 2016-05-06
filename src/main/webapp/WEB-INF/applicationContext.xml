@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+        http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+ 
+    <context:component-scan base-package="com.tam" />
+    
+    <bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+		<property name="scopes">
+			<map>
+				<entry key="view">
+					<bean class="com.tam.common.ViewScope" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+	
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+        destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url"
+            value="jdbc:mysql://localhost:3306/demo" />
+        <property name="username" value="root" />
+        <property name="password" value="123456" />
+    </bean>
+    <bean id="emf"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
+		</property>
+		<property name="packagesToScan"
+			value="com.tam.backend.entities" />
+		<property name="jpaProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.max_fetch_depth">3</prop>
+				<prop key="hibernate.jdbc.fetch_size">50</prop>
+				<prop key="hibernate.jdbc.batch_size">10</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="hibernate.temp.use_jdbc_metadata_defaults">false</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+			</props>
+		</property>
+	</bean>
+ <!-- 
+    <bean id="personDAO"
+        class="com.tam.impl.PersonDAOImpl">
+        <property name="sessionFactory"
+            ref="hibernate4AnnotatedSessionFactory" />
+    </bean>
+    <bean id="personService"
+        class="com.tam.services.PersonServiceImpl">
+        <property name="personDAO" ref="personDAO"></property>
+    </bean>
+     
+  -->
+    <tx:annotation-driven transaction-manager="transactionManager" />
+    
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+	
+		<property name="entityManagerFactory" ref="emf" />
+	</bean>
+
+	<jpa:repositories base-package="com.tam.backend.repository" 
+	factory-class="org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean"
+    transaction-manager-ref="transactionManager"
+    entity-manager-factory-ref="emf"
+	/>
+      
+</beans>
