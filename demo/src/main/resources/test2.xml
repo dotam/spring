@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?><ResDoc schemaLocation="http://www.burning-glass.com/ResDoc/1.0 file:///E:/workspace/daxtra-burningglass/ResDoc.xsd">
+    <resume>
+        <contact>
+            <name>Meaghan Gerhart<givenname>Meaghan</givenname>
+                <surname>Gerhart</surname>
+            </name>
+            <skype/>
+            <linkedin/>
+            <address/>
+        </contact>
+        <education>
+            <school>
+                <daterange/>
+                <institution>Seattle University</institution>
+                <degree name="masters">Master of Business Administration</degree>
+            </school>
+            <school>
+                <daterange/>
+                <major>Political Science</major>
+                <degree name="bachelors">Bachelor of Arts</degree>
+            </school>
+        </education>
+        <experience>notApplicable<job id="11_2" pos="Account Manager">
+            <title>Account Manager</title>
+            <employer>MentorMate</employer>
+            <daterange>
+                <start iso8601="2017-03-01">2017-03</start>
+                <end iso8601="2017-10-01">2017-10</end>
+            </daterange>
+            <description>* Manage and nurture customer relationship from software development project inception to
+                completion; responsible for nearly 30 active accounts and $6M sales pipeline each quarter
+                * Coordinate logistical and legal items to maintain seamless, efficient sales journey across
+                worldwide, distributed team
+                * Develop strategic account plans to grow scale and scope of major accounts ;
+                * Update Salesforce records for accurate internal revenue projections with key internal stakeholders</description>
+            <address/>
+        </job>
+            <job id="14_2" pos="Head of Operations">
+                <title>Head of Operations</title>
+                <employer>Faira</employer>
+                <daterange>
+                    <start iso8601="2015-11-01">2015-11</start>
+                    <end iso8601="2017-03-01">2017-03</end>
+                </daterange>
+                <description>Privately held startup that bridges and simplifies the process for home buyers &amp; sellers making real
+                    estate modern, transparent and fair
+                    * Reporting to CEO, lead team of four in business development resulting in growth of: $1.2 M to</description>
+                <address/>
+            </job>
+            <job id="23" pos="Marketing &amp; Sales Associate">
+                <title>Marketing &amp; Sales Associate</title>
+                <employer>Realogics Sotheby's International</employer>
+                <daterange>
+                    <start iso8601="2014-08-01">2014-08</start>
+                    <end iso8601="2015-11-01">2015-11</end>
+                </daterange>
+                <description>* Cultivated and maintained strategic relationships with clients and the local community
+                    * Managed sale cycle and transaction timeline of residential, commercial, &amp; winery properties: from
+                    pre-contract/pre-listing to close of escrow
+                    * Developed innovative listing &amp; marketing collateral pieces, campaigns, and strategies
+                    * Set and supported goals for long-term, local and global business development</description>
+                <address>
+                    <state>WA</state>
+                    <town>Seattle</town>
+                    <county>US</county>
+                </address>
+            </job>
+            <job id="27_2" pos="Emerging Products Management Intern">
+                <title>Emerging Products Management Intern</title>
+                <employer>Akamai Technologies</employer>
+                <daterange>
+                    <start iso8601="2013-06-01">2013-06</start>
+                    <end iso8601="2013-10-01">2013-10</end>
+                </daterange>
+                <description>Page 1
+
+                    * Compiled in-depth market research materials to support an emerging cloud product offering
+                    * Developed comprehensive ROI calculator to enable customers to asses technical scalability
+                    alternatives
+                    * Created and shared presentations related to market research, ROI calculators, &amp; OEM
+                    partnerships to senior management
+                    * Owned ad hoc analyses requested by senior business development leadership team</description>
+                <address/>
+            </job>
+            <job id="30_2" pos="Marketing &amp; Sales Assistant">
+                <title>Marketing &amp; Sales Assistant</title>
+                <employer>Sotheby's International Realty</employer>
+                <daterange>
+                    <start iso8601="2012-01-01">2012-01</start>
+                    <end iso8601="2013-06-01">2013-06</end>
+                </daterange>
+                <description>* Created and implemented cross-channel marketing strategies, dramatically increasing sales and
+                    client base
+                    * Established and maintained social media accounts on Facebook and Twitter, significantly
+                    increasing Facebook page likes and Twitter followers, &amp; overall reach and engagement
+                    * Created engaging collateral pieces ;
+                    * Maintained strong and profitable relationships with agents and clients
+                    * Administrative duties, including emails, calling clients, printing &amp; filing documents</description>
+                <address/>
+            </job>
+            <job>
+                <daterange>
+                    <start iso8601="2012-06-01">2012-06</start>
+                    <end iso8601="2012-08-01">2012-08</end>
+                </daterange>
+                <description>* Establishment and management of Facebook and Twitter accounts; in my time I increased
+                    Facebook likes from 0-746, Twitter followers from 0-141
+                    * Personally drafted, edited and composed two corporate documents for adoption and
+                    implementation: Social Media Policy &amp; Social Media Strategy
+                    * Redesign corporate website to improve ease of use, SEO, and visual display
+                    * Conduct informational interviews and write compelling stories to be used for marketing and
+                    development purposes
+                    * The development, material creation, organization, management, and advertisement of various
+                    summer and fall events</description>
+                <address/>
+            </job>
+            <job id="33">
+                <employer>Wheaton College</employer>
+                <daterange>
+                    <start iso8601="2011-01-01">2011-01</start>
+                    <end iso8601="2011-05-01">2011-05</end>
+                </daterange>
+                <description>* Made connections with alumni of Wheaton College to encourage donations ;
+                    * My team of 30 members successfully raised over $1M for Wheaton College</description>
+                <address/>
+            </job>
+            <job id="39_2" pos="Assistant to the Marketing and Web Design Executive">
+                <title>Assistant to the Marketing and Web Design Executive</title>
+                <employer>Palo Alto Medical Foundation</employer>
+                <daterange>
+                    <start iso8601="2010-06-01">2010-06</start>
+                    <end iso8601="2010-09-01">2010-09</end>
+                </daterange>
+                <description>* Update the PAMF website ;
+                    * Contact over 50 doctors and conducted research to add interest and information to the PAMF
+                    website</description>
+                <address/>
+            </job>
+        </experience>
+        <skills>
+            <dxSkillLevel>90</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency>EXCELLENT</dxSkillProficiency>
+            <dxGrade/>
+            <dxSkillName>Sales Pipeline</dxSkillName>
+            <dxDescription>Skill</dxDescription>
+            <dxAuth>yes</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>sales~misc</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>88</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency>EXCELLENT</dxSkillProficiency>
+            <dxGrade/>
+            <dxSkillName>Market Research</dxSkillName>
+            <dxDescription>Skill</dxDescription>
+            <dxAuth>yes</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>marketing</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>54</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency>WORKING</dxSkillProficiency>
+            <dxGrade/>
+            <dxSkillName>Marketing Management</dxSkillName>
+            <dxDescription>Skill</dxDescription>
+            <dxAuth>yes</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>marketing~misc</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>14</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency/>
+            <dxGrade/>
+            <dxSkillName>Indirect Sales</dxSkillName>
+            <dxDescription>Skill</dxDescription>
+            <dxAuth>yes</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>sales~sales-type</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>100</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency>EXCELLENT</dxSkillProficiency>
+            <dxGrade/>
+            <dxSkillName>Sales &amp; Marketing Communications Manager</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>sales</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>92</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency>EXCELLENT</dxSkillProficiency>
+            <dxGrade/>
+            <dxSkillName>Head of Operations</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId/>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>90</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency>EXCELLENT</dxSkillProficiency>
+            <dxGrade/>
+            <dxSkillName>Account Manager</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>yes</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>sales</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>73</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency>GOOD</dxSkillProficiency>
+            <dxGrade/>
+            <dxSkillName>Marketing &amp; Sales Associate</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>sales</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>54</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency>WORKING</dxSkillProficiency>
+            <dxGrade/>
+            <dxSkillName>Marketing &amp; Sales Assistant</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>retail</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>51</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency>WORKING</dxSkillProficiency>
+            <dxGrade/>
+            <dxSkillName>Emerging Products Management Intern</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>medicine</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>22</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency>BASIC</dxSkillProficiency>
+            <dxGrade/>
+            <dxSkillName>Assistant to the Marketing and Web Design Executive</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>marketing</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>14</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency/>
+            <dxGrade/>
+            <dxSkillName>Counselor</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>edu</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>14</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency/>
+            <dxGrade/>
+            <dxSkillName>Officer</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId/>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>14</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency/>
+            <dxGrade/>
+            <dxSkillName>Social Events Chair</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>catering</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>14</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency/>
+            <dxGrade/>
+            <dxSkillName>Vice President of Wheaton College Mock Trial</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId/>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>14</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency/>
+            <dxGrade/>
+            <dxSkillName>Volunteer</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId/>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>14</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency/>
+            <dxGrade/>
+            <dxSkillName>marketing communications</dxSkillName>
+            <dxDescription>Held Position</dxDescription>
+            <dxAuth>no</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>marketing</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>92</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency/>
+            <dxGrade/>
+            <dxSkillName>Masters Degree &gt; Master of Business Administration</dxSkillName>
+            <dxDescription>Degree/Qualification</dxDescription>
+            <dxAuth>yes</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>masters</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>91</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency/>
+            <dxGrade/>
+            <dxSkillName>Bachelors Degree &gt; Bachelor of Arts &gt; Bachelor of Arts Political Science</dxSkillName>
+            <dxDescription>Degree/Qualification</dxDescription>
+            <dxAuth>yes</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId>bachelors</dxTaxonomyId>
+            <dxSkillAliasArray/>
+        </skills>
+        <skills>
+            <dxSkillLevel>100</dxSkillLevel>
+            <dxSkillUsed/>
+            <dxSkillProficiency/>
+            <dxGrade/>
+            <dxSkillName>industry~marketing</dxSkillName>
+            <dxDescription>Industry</dxDescription>
+            <dxAuth>yes</dxAuth>
+            <dxSkillCount/>
+            <dxLastUsed/>
+            <dxCompetencyId/>
+            <dxTaxonomyId/>
+            <dxSkillAliasArray/>
+        </skills>
+        <Languages/>
+        <summary>
+            <personalstatements>N/A</personalstatements>
+            <TotalMonthsOfWorkExperience>83</TotalMonthsOfWorkExperience>
+            <TotalYearsOfWorkExperience>7</TotalYearsOfWorkExperience>
+            <TotalMonthsOfManagementWorkExperience>24</TotalMonthsOfManagementWorkExperience>
+            <TotalYearsOfManagementWorkExperience>2</TotalYearsOfManagementWorkExperience>
+            <TotalMonthsOfMidLevelManagementWorkExperience>17</TotalMonthsOfMidLevelManagementWorkExperience>
+            <TotalYearsOfMidLevelManagementWorkExperience>1.4</TotalYearsOfMidLevelManagementWorkExperience>
+            <TotalMonthsOfLowLevelManagementWorkExperience>7</TotalMonthsOfLowLevelManagementWorkExperience>
+            <TotalYearsOfLowLevelManagementWorkExperience>0.5</TotalYearsOfLowLevelManagementWorkExperience>
+            <ExecutiveBrief>Meaghan Gerhart has been working in the Marketing occupational sector for more than 7 years. Currently she is employed as a Sales &amp; Marketing Communications Manager at INSPECTORIO. Meaghan has a considerable management experience (2 years) with exposure to executive/middle management positions.</ExecutiveBrief>
+            <ManagementRecord>Currently since 2017-12 this candidate had experience at a lower grade management level working as a Sales &amp; Marketing Communications Manager at INSPECTORIO.
+                Since 2015-11, for a total duration of 17 months, this candidate had experience at an executive/middle management level working as a Head of Operations at Faira.
+            </ManagementRecord>
+        </summary>
+        <photo>
+            <data/>
+            <filetype/>
+        </photo>
+        <statements>
+            <personal>N/A<gender>Female</gender>
+            </personal>
+        </statements>
+        <EmploymentType/>
+        <DesiredSalary>
+            <currency/>
+            <amount/>
+        </DesiredSalary>
+    </resume>
+    <skillrollup>
+        <canonskill name="Sales Pipeline" experience="90"/>
+        <canonskill name="Market Research" experience="88">
+            <variant>in-depth market research</variant>
+        </canonskill>
+        <canonskill name="Marketing Management" experience="54">
+            <variant>marketing strategies</variant>
+        </canonskill>
+        <canonskill name="Indirect Sales" experience="14">
+            <variant>channel sales</variant>
+        </canonskill>
+        <canonskill name="Sales &amp; Marketing Communications Manager" experience="100">
+            <variant>Sales &amp; Marketing Communications Manager</variant>
+        </canonskill>
+        <canonskill name="Head of Operations" experience="92"/>
+        <canonskill name="Account Manager" experience="90"/>
+        <canonskill name="Marketing &amp; Sales Associate" experience="73">
+            <variant>Marketing &amp; Sales Associate</variant>
+        </canonskill>
+        <canonskill name="Marketing &amp; Sales Assistant" experience="54">
+            <variant>Marketing &amp; Sales Assistant</variant>
+        </canonskill>
+        <canonskill name="Emerging Products Management Intern" experience="51"/>
+        <canonskill name="Assistant to the Marketing and Web Design Executive" experience="22"/>
+        <canonskill name="Counselor" experience="14"/>
+        <canonskill name="Officer" experience="14"/>
+        <canonskill name="Social Events Chair" experience="14"/>
+        <canonskill name="Vice President of Wheaton College Mock Trial" experience="14"/>
+        <canonskill name="Volunteer" experience="14"/>
+        <canonskill name="marketing communications" experience="14"/>
+        <canonskill name="Masters Degree &gt; Master of Business Administration" experience="92">
+            <variant>MBA</variant>
+            <variant>Master of Business Administration (M.B.A.)</variant>
+        </canonskill>
+        <canonskill name="Bachelors Degree &gt; Bachelor of Arts &gt; Bachelor of Arts Political Science" experience="91">
+            <variant>Political Science</variant>
+            <variant>Bachelor of Arts (B.A.), Political Science</variant>
+        </canonskill>
+        <canonskill name="industry~marketing" experience="100"/>
+    </skillrollup>
+</ResDoc>
